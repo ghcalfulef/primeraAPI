@@ -4,6 +4,7 @@ var mongoose = require('mongoose'),
 var Datos = new Schema({
     nombre: {type:String, required : true},
     apellido: {type : String, required : true},
+    telefono: {type : String, required : true}
     archivo: {type : String, required : true}
 });
 

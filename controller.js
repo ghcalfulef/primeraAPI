@@ -8,6 +8,7 @@ exports.agregarUsuario = function(req, res){
     var datos = new Objeto({
         nombre :  req.body.nombre,
         apellido : req.body.apellido,
+        telefono : req.body.archivo.
         archivo : req.body.archivo
     });
     datos.save(function(err, datos){
